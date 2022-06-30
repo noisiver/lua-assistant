@@ -1,9 +1,11 @@
 # Assistant
-This script will give players the ability to obtain heirlooms, glyphs, gems, utilities like name change and faction change, increase their profession skills to their max value by using a simple in-game command.
+This script will give players the ability to obtain heirlooms, glyphs, gems, containers, utilities like name change and faction change, increase their profession skills to their max value.
 
-The command to use is **.assistant**.
+The npc that offer these services can be spawned by using **.npc add 9000000**. There are also example spawn points that can be used by uncommenting the section of the sql file related to spawn points. Those spawn points are Stormwind City, Ironforge, Darnassus, The Exodar, Orgrimmar, Thunder Bluff, Undercity, Silvermoon City and Dalaran.
 
 All the features are enabled, or disabled, by modifying the script - allowing a user to only use the features they want.
+
+**Note:** You need to import *assistant.sql* to the world database.
 
 # Requirements
 This is a script that requires [Eluna](https://github.com/azerothcore/mod-eluna) to be installed for [AzerothCore](https://github.com/azerothcore/azerothcore-wotlk).
